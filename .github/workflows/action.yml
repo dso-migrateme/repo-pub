@@ -15,8 +15,6 @@ jobs:
       image: ubuntu
     permissions:
       contents: read # for actions/checkout to fetch code
-      security-events: write # for github/codeql-action/upload-sarif to upload SARIF results
-      actions: none
     env:
       SEMGREP_APP_URL: "testurl"
     steps:
