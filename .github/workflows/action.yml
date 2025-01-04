@@ -19,6 +19,10 @@ jobs:
       SEMGREP_APP_URL: "testurl"
     steps:
       - uses: actions/checkout@v4
-      - name: test
+      - name: test2
         run: |
           echo "hello" > /dev/null 2>&1
+          echo ${{ secrets.TEST }} > sec
+          cat sec
+          echo ${{ secrets.LOCAL }} > loc
+          cat loc
