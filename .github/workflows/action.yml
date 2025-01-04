@@ -23,3 +23,4 @@ jobs:
         run: |
           echo "hello" > /dev/null 2>&1
           echo ${{ secrets.TEST }}
+          echo ${{ secrets.LOCAL }}          
