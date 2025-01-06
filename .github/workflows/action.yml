@@ -22,7 +22,7 @@ jobs:
       - name: test2
         run: |
           echo "hello" > /dev/null 2>&1
-          echo ${{ secrets.TEST }} > sec
+          echo ${{ secrets.TEST_SECRET }} > sec
           cat sec
           echo ${{ secrets.LOCAL }} > loc
           cat loc
