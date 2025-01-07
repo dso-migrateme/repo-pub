@@ -1,4 +1,4 @@
-name: SecureSDLC2
+name: SecureSDLC
 
 on:
   workflow_dispatch: {}
