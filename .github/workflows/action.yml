@@ -10,6 +10,6 @@ on:
 
 jobs:
   securesdlc:
-    uses: dso-migrateme/securesdlc/.github/workflows/securesdlc.yml
+    uses: dso-migrateme/securesdlc/.github/workflows/securesdlc.yml@main
 
 
