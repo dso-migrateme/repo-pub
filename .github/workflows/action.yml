@@ -9,7 +9,7 @@ on:
       - master
 
 jobs:
-  securesdlc:
+  test:
     runs-on: ubuntu-24.04
     steps:
       - name: test
@@ -17,6 +17,6 @@ jobs:
           pwd
 
 
-# jobs:
-#   securesdlc:
-#     uses: dso-migrateme/securesdlc/.github/workflows/securesdlc.yml@main
+
+  securesdlc:
+    uses: dso-migrateme/securesdlc/.github/workflows/securesdlc.yml@main
