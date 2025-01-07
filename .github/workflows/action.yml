@@ -10,10 +10,6 @@ on:
 
 jobs:
   securesdlc:
-    runs-on: ubuntu-24.04
-    steps:
-      - name: test
-        run: |
-          pwd
+    uses: dso-migrateme/securesdlc/.github/workflows/securesdlc.yml
 
 
