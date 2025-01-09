@@ -1,4 +1,4 @@
-name: SecureSDLC
+name: Local
 
 on:
   workflow_dispatch: {}
