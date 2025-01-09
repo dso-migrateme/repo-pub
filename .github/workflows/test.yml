@@ -1,4 +1,4 @@
-name: SecureSDLC
+name: Local
 
 on:
   workflow_dispatch: {}
@@ -16,7 +16,6 @@ jobs:
       - name: test
         run: |
           pwd
-
 
 
   # securesdlc:
