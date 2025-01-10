@@ -9,7 +9,7 @@ on:
       - '**'
 
 jobs:
-  test:
+  local-step:
     runs-on: ubuntu-24.04
     steps:
       - name: local-step
