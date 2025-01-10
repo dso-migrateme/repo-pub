@@ -15,4 +15,3 @@ jobs:
       - name: local-step
         run: |
           echo "Local step"
-
