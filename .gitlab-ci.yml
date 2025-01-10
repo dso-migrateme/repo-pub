@@ -1,4 +1,0 @@
-sdlc:
-  stage: test
-  script:
-    - echo "Missing CI file"
