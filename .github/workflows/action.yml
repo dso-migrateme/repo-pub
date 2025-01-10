@@ -1,4 +1,4 @@
-name: Local
+name: Local Job
 
 on:
   workflow_dispatch: {}
@@ -9,7 +9,7 @@ on:
       - '**'
 
 jobs:
-  test:
+  local-job:
     runs-on: ubuntu-24.04
     steps:
       - name: local-step
