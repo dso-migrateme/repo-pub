@@ -1,4 +1,5 @@
 name: Local
+run-name: "Ref:${{ github.ref_name }} Event:${{ github.event_name }}"
 
 on:
   workflow_dispatch: {}
