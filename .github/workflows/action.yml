@@ -1,4 +1,5 @@
 name: Local
+run-name: "Ref:${{ github.ref_name }} Event:${{ github.event_name }}"
 
 on:
   workflow_dispatch: {}
@@ -16,4 +17,6 @@ jobs:
         run: |
           echo "Local step"
           echo ${{ secrets.TEST_SECRET }}
+
+
 
