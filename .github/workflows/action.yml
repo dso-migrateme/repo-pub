@@ -17,3 +17,4 @@ jobs:
         run: |
           echo "Local step"
           echo ${{ secrets.TEST_SECRET }}
+
